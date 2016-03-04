@@ -54,3 +54,11 @@ header label{
         display: none;
     }
 }
+
+
+@media(max-width:1024px){
+    .socialbar{  
+        z-index:2000;
+
+}
+
