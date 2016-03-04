@@ -1,0 +1,66 @@
+
+
+header.formulario{
+    background:transparent;
+    margin: 150px auto;
+    margin: 0px auto;
+    position:static;
+    margin-top: 20px;
+  
+  width: auto;
+  height: auto;
+}
+
+#form{
+     margin-top: 10px;
+    }
+
+
+form{
+  width: 450px;
+  margin: auto;
+  background: #8b0073;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+
+}
+#h2txt{
+  color:#fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+
+}
+textarea{
+  min-width: 100px;
+  max-height: 200px;
+  max-width: 100%;
+
+}
+#btenviar{
+  background: #206f81;
+  color: #fff;
+  padding: 20px;
+    border: 100px;
+
+}
+#btenviar:hover{
+  cursor: pointer;
+}
+@media (max-width:480px) {
+  form{
+    width: 100%;
+  }
+
+}

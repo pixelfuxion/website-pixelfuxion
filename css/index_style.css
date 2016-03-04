@@ -4,6 +4,9 @@
 @import url(blog.css);
 @import url(info.css);
 @import url(footer.css);
+@import url(bloques.css);
+@import url(formulario.css);
+@import url(bar_social.css);
 
 
 *{
@@ -66,3 +69,19 @@ section{
     }
 }
 
+div#contxt{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    color: #187d6e;    
+}
+
+#pcontxt{
+    text-decoration: none;
+    color: #ff1a00;
+}
+#pcontxt:hover{
+    color: #750a82;
+}
